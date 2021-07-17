@@ -1,8 +1,20 @@
+.navbar{
+    list-style-type: none;
+    float:right;
+    /*background-color: yellowgreen;*/
+}
+
+#signInButton{
+    background-color: #1a73e8;
+    color:white;
+    padding: 7px 24px 7px 24px;
+}
 
 .inputContainer{
     height: 400px;
     width: 650px;
     /*background-color: burlywood;*/
+    margin:auto;
 }
 
 .logo{
