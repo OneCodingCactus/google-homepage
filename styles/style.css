@@ -5,32 +5,40 @@ body{
 
 .navBar{
     list-style-type: none;
-    /*background-color: yellowgreen;*/
     color: #313131;
-    font-size: 75%;
+    font-size: 80%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 ul{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+}
+
+li{
+    margin-right: 15px;
+    margin-left: 3px;
 }
 
 #appsSign{
     opacity: 0.5;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 #signInButton{
     background-color: #1a73e8;
     color:white;
-    padding: 7px 24px 7px 24px;
+    padding: 8px 25px 8px 25px;
 }
 
 .inputContainer{
     height: 400px;
     width: 660px;
-    /*background-color: burlywood;*/
     margin:auto;
+    margin-top: 210px;
 }
 
 .logo{
@@ -75,4 +83,8 @@ button{
     display: block;
     margin: auto;
     margin-top: 30px;
+}
+
+footer{
+    background-color: #f2f2f2;
 }
