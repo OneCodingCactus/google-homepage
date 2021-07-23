@@ -35,7 +35,7 @@ header li{
 }
 
 .inputContainer{
-    height: 500px;
+    height: 586px;
     width: 660px;
     margin:auto;
     margin-top: 210px;
@@ -87,7 +87,6 @@ button{
 
 footer{
     background-color:#f2f2f2;
-    position: relative;
     color: #6f6f6f;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
@@ -107,11 +106,7 @@ footer ul{
     display: flex;
     justify-content: space-between;
 }
-/*
-#leftList{
-    justify-content: flex-start;
-}
 
-#rightList{
-    justify-content: flex-end;
-}*/
+footer li{
+    padding: 0px 25px 10px 0px;
+}
